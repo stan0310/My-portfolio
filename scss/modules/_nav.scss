@@ -1,0 +1,33 @@
+
+.nav{
+	text-decoration: none;
+	display: block;
+	// border:1px red solid;
+}
+.nav_menu_wrap{
+	display: flex;
+	flex-direction:column;
+	text-align:center;
+	font-family:$comfort-font;
+	padding-right: 2em;
+	display: none;
+	// transition: all ease 1s;
+
+}
+
+.nav_menu{
+	text-decoration: none;
+	display: block;
+	letter-spacing: 0.03em;
+	font-size: 1.1em;
+	padding-bottom: 0.5em;
+	// border:1px red solid;
+	
+}
+
+.nav_menu>a{
+		text-decoration: none;
+		display: block;
+		color: black;
+	// border:1px red solid;	
+}

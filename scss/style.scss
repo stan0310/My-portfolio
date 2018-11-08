@@ -1,3 +1,24 @@
-body{
-	border:1px red solid;
-}
+/*
+ * SMACSS + SCSS starter v2.1
+ * Inspired by SMACSS http://smacss.com
+ * Author: @jonathanpath
+ * Date: 4 August 2015
+ *
+ * https://github.com/jonathanpath/SASS-SMACSS
+ * See file structure in http://jonathanpath.com/sass+smacss/scss/style.scss
+ *
+ * Coding rules : https://github.com/necolas/idiomatic-css
+ *
+ */
+
+/* Site settings */
+@import "settings";
+@import "base";
+/*@import '_/sass/reset';*/
+
+/*// Modules-------------*/
+@import "modules/header";
+@import "modules/nav";
+@import "modules/layout";
+@import "modules/works";
+

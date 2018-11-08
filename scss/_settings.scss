@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+
+// Fonts
+$font1: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$comfort-font: 'Comfortaa', cursive;
+$font2: 'Quicksand', sans-serif;
+// --------------------------------
+
+// main colors
+// --------------------------------\
+$main-color:#F1EDD9;
+$sec-color: #9CEBD8;
+$main-pink:#EB586F;
+$lightblue:#469DF0;
+$black: #333333;
+$lightb: #CCFFFF;
+$blue: #3399FF;
+$darkgreen:#99CC99;
+$green:#CCCC99;
+$orange:#ffcc66;
+$yellow:#FFFFCC;
+$white:white;
+$color2: blue;
+
+// border
+// --------------------------------
+$border1:#3399FF;
+$borderG:#CCFFCC;
+$borderO:#FF9933;
+
+// =mixin
+// --------------------------------
+@mixin shadow(){
+	box-shadow:-1px -1px 10px -2px rgba(0, 0, 0,0.9);
+}
+
+@mixin shadow_bottom(){
+	box-shadow:-1px 5px 10px -2px rgba(0, 0, 0,0.5);
+}
+@mixin margin-top(){
+	margin-top: 1em;
+}
+@mixin margin(){
+	margin:1em;
+}
+@mixin margin2(){
+	margin:2em;
+}
+@mixin padding(){
+	padding-left:2em;
+}
+
+@mixin box_radius(){
+ border-radius: 5px,
+}
+// --------------------------------
+
+// Size
+$size1: 1em;
+$size2: 1.2em;
+$size3:2em;
+
+// --------------------------------
+
+// Breakpoint
+
+$bp1 : 40em;
+$bp2 : 60em;
