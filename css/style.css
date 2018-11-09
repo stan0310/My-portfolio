@@ -74,9 +74,10 @@
   /*border: 1px red solid;*/ }
 
 /*------BANNER_IMAGE------*/
-/*.banner_wrap{
-	position:absolute;
-}*/
+.banner_wrap {
+  position: relative;
+  /*border: 1px red solid;*/ }
+
 .banner_image {
   width: 100%;
   height: 100%;
@@ -88,11 +89,10 @@
   display: -ms-flexbox;
   display: flex;
   width: 25%;
-  height: 11%;
+  height: 70%;
   position: absolute;
-  top: 11em;
+  top: 40%;
   left: 13%;
-  /*border: 1px red solid;*/
   -webkit-transform: rotate(-6deg);
   transform: rotate(-6deg); }
 
@@ -104,7 +104,7 @@
   text-align: center;
   position: absolute;
   width: 60%;
-  top: 23%;
+  top: 50%;
   left: 38%;
   /*border: 1px red solid;*/ }
 

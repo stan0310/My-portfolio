@@ -54,6 +54,7 @@ $(function(){
         autoplay:true,
     
     });
+
     $('.menu_hamburger').on('click', function(e) {
         var navData = $('.nav_menu_wrap').data('nav');
         e.stopPropagation();
@@ -66,24 +67,39 @@ $(function(){
                 .addClass('fas fa-times');
              
 
-                 $('.nav_menu_wrap').show(1500);
-                    oHome.restart();
-                    oPortfolio.restart();
-                    oAboutMe.restart();
-                    oSkills.restart();
-                    oContact.restart();
+            $('.nav_menu_wrap').show(1500);
+            oHome.restart();
+            oPortfolio.restart();
+            oAboutMe.restart();
+            oSkills.restart();
+            oContact.restart();
 
         } else {
             $('.nav_menu_wrap').removeClass('nav-open')
-                .data('nav', 'close');
-            $('.menu_hamburger>i').removeClass('fas fa-times')
-                .addClass('fas fa-bars');
+             .data('nav', 'close');
 
-                 $('.nav_menu_wrap').hide(1500);
+            $('.menu_hamburger>i').removeClass('fas fa-times')
+             .addClass('fas fa-bars');
+
+            $('.nav_menu_wrap').hide(1500);
 
         
         }
     });
+
+// ---------SLOGAN ANIMATION---------
+
+    var oGreeting = anime({
+        targets:'.greeting',
+        translateY:[-100,0],
+        opacity:[0,1],
+        easing:'linear',
+        duration:1500,
+        autoplay:true,
+    
+    });
+
+     oGreeting.play(1000);
 
     //Highlight links when clicked
 
